@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include "hello.h"
 
-int main(int argc, char *argv[])
+
+void print(char *fmt)
 {
+    printf("%s\n", fmt);
 
-    return 0;
 }
